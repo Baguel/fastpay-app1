@@ -6,19 +6,13 @@ export default function Welcome() {
   return (
     <main className="h-screen w-screen bg-green-600">
         <div className="mx-auto">
-            <div className="items-center justify-around flex">
-                <div>
-                    <Avatar className="hover:cursor-pointer">
-                        <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                        <AvatarFallback>CN</AvatarFallback>
-                    </Avatar>
-                </div>
-                <div>
-                    <button className="mt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="rgba(255,255,255,1)"><path d="M8.68637 4.00008L11.293 1.39348C11.6835 1.00295 12.3167 1.00295 12.7072 1.39348L15.3138 4.00008H19.0001C19.5524 4.00008 20.0001 4.4478 20.0001 5.00008V8.68637L22.6067 11.293C22.9972 11.6835 22.9972 12.3167 22.6067 12.7072L20.0001 15.3138V19.0001C20.0001 19.5524 19.5524 20.0001 19.0001 20.0001H15.3138L12.7072 22.6067C12.3167 22.9972 11.6835 22.9972 11.293 22.6067L8.68637 20.0001H5.00008C4.4478 20.0001 4.00008 19.5524 4.00008 19.0001V15.3138L1.39348 12.7072C1.00295 12.3167 1.00295 11.6835 1.39348 11.293L4.00008 8.68637V5.00008C4.00008 4.4478 4.4478 4.00008 5.00008 4.00008H8.68637ZM12.0001 15.0001C13.6569 15.0001 15.0001 13.6569 15.0001 12.0001C15.0001 10.3432 13.6569 9.00008 12.0001 9.00008C10.3432 9.00008 9.00008 10.3432 9.00008 12.0001C9.00008 13.6569 10.3432 15.0001 12.0001 15.0001Z"></path></svg></button>
+            <div className="items-center justify-end flex">
+                <div className=""> 
+                    <button className="mt-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" fill="rgba(251,247,247,1)"><path d="M5.33409 4.54491C6.3494 3.63637 7.55145 2.9322 8.87555 2.49707C9.60856 3.4128 10.7358 3.99928 12 3.99928C13.2642 3.99928 14.3914 3.4128 15.1245 2.49707C16.4486 2.9322 17.6506 3.63637 18.6659 4.54491C18.2405 5.637 18.2966 6.90531 18.9282 7.99928C19.5602 9.09388 20.6314 9.77679 21.7906 9.95392C21.9279 10.6142 22 11.2983 22 11.9993C22 12.7002 21.9279 13.3844 21.7906 14.0446C20.6314 14.2218 19.5602 14.9047 18.9282 15.9993C18.2966 17.0932 18.2405 18.3616 18.6659 19.4536C17.6506 20.3622 16.4486 21.0664 15.1245 21.5015C14.3914 20.5858 13.2642 19.9993 12 19.9993C10.7358 19.9993 9.60856 20.5858 8.87555 21.5015C7.55145 21.0664 6.3494 20.3622 5.33409 19.4536C5.75952 18.3616 5.7034 17.0932 5.0718 15.9993C4.43983 14.9047 3.36862 14.2218 2.20935 14.0446C2.07212 13.3844 2 12.7002 2 11.9993C2 11.2983 2.07212 10.6142 2.20935 9.95392C3.36862 9.77679 4.43983 9.09388 5.0718 7.99928C5.7034 6.90531 5.75952 5.637 5.33409 4.54491ZM13.5 14.5974C14.9349 13.7689 15.4265 11.9342 14.5981 10.4993C13.7696 9.0644 11.9349 8.57277 10.5 9.4012C9.06512 10.2296 8.5735 12.0644 9.40192 13.4993C10.2304 14.9342 12.0651 15.4258 13.5 14.5974Z"></path></svg></button>
                 </div>
             </div>
             <div className="">
-                <div className="col-span-2 mt-5 items-center justify-center flex">
+                <div className="col-span-2 mt-3 items-center justify-center flex">
                     <div className="h-[300px] w-[600px] xs:w-[480px] cs:h-[250px] cs:w-[360px] rounded-2xl bg-center bg-cover bg-no-repeat" style={{backgroundImage: "url('/562949.jpg')"}}>
                         <div className="flex justify-between mx-8">
                             <h1 className="mt-4 text-2xl font-bold text-white">FASTPAY</h1>
@@ -42,16 +36,16 @@ export default function Welcome() {
                 <div className="col-span-2 items-center justify-center flex">
                     <div className="h-[570px] w-[600px] rounded-t-2xl bg-white">
                         <div className="mt-10 flex justify-around">
-                            <div className="">
-                                <div className="h-[60px] w-[60px] border-2 border-black rounded-full"></div>
+                            <div className="items-center justify-center">
+                                <div className="h-[60px] w-[60px] border-2 border-black rounded-full"><svg className="w-[36px] h-[36px] mt-2 ml-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M4 4h6v6H4V4Zm10 10h6v6h-6v-6Zm0-10h6v6h-6V4Zm-4 10h.01v.01H10V14Zm0 4h.01v.01H10V18Zm-3 2h.01v.01H7V20Zm0-4h.01v.01H7V16Zm-3 2h.01v.01H4V18Zm0-4h.01v.01H4V14Z"/><path stroke="currentColor" stroke-linejoin="round" stroke-width="2" d="M7 7h.01v.01H7V7Zm10 10h.01v.01H17V17Z"/></svg></div>
                                 <h1 className="mt-2 text-xl font-semibold">Scan</h1>
                             </div>
                             <div>
-                                <div className="h-[60px] w-[60px] border-2 border-black rounded-full"></div>
+                                <div className="h-[60px] w-[60px] border-2 border-black rounded-full"><svg className="mt-3 ml-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16"><path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/></svg></div>
                                 <h1 className="mt-2 text-center text-xl font-semibold">Transfert</h1>
                             </div>
                             <div>
-                                <div className="h-[60px] w-[60px] border-2 border-black rounded-full"></div>
+                                <div className="h-[60px] w-[60px] border-2 border-black rounded-full"><svg className="mt-2 ml-3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-safe2-fill" viewBox="0 0 16 16"><path d="M6.563 8H5.035a3.5 3.5 0 0 1 .662-1.596l1.08 1.08q-.142.24-.214.516m.921-1.223-1.08-1.08A3.5 3.5 0 0 1 8 5.035v1.528q-.277.072-.516.214M9 6.563V5.035a3.5 3.5 0 0 1 1.596.662l-1.08 1.08A2 2 0 0 0 9 6.563m1.223.921 1.08-1.08c.343.458.577 1.003.662 1.596h-1.528a2 2 0 0 0-.214-.516M10.437 9h1.528a3.5 3.5 0 0 1-.662 1.596l-1.08-1.08q.142-.24.214-.516m-.921 1.223 1.08 1.08A3.5 3.5 0 0 1 9 11.965v-1.528q.277-.072.516-.214M8 10.437v1.528a3.5 3.5 0 0 1-1.596-.662l1.08-1.08q.24.142.516.214m-1.223-.921-1.08 1.08A3.5 3.5 0 0 1 5.035 9h1.528q.072.277.214.516M7.5 8.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0"/><path d="M2.5 1A1.5 1.5 0 0 0 1 2.5V3H.5a.5.5 0 0 0 0 1H1v4H.5a.5.5 0 0 0 0 1H1v4H.5a.5.5 0 0 0 0 1H1v.5A1.5 1.5 0 0 0 2.5 16h12a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 14.5 1zm6 3a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9"/></svg></div>
                                 <h1 className="mt-2 text-xl font-semibold">Coffre</h1>
                             </div>
                         </div>
@@ -111,8 +105,12 @@ export default function Welcome() {
                             </div>
                             <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">TRANSFERE</h1>
                         </div>
-
                         </div>
+                        
+                        <div className="flex items-center justify-center mt-5">
+                            <button className="bg-green-400 h-8 w-64 rounded-xl">Voir toutes les transactions</button>
+                        </div>
+
                     </div>
                 </div>
 
