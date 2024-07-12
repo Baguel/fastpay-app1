@@ -19,7 +19,7 @@ export default function Welcome() {
             </div>
             <div className="">
                 <div className="col-span-2 mt-5 items-center justify-center flex">
-                    <div className="h-[300px] w-[600px] xs:w-[480px] cs:h-[250px] cs:w-[380px] rounded-2xl bg-center bg-cover bg-no-repeat" style={{backgroundImage: "url('/562949.jpg')"}}>
+                    <div className="h-[300px] w-[600px] xs:w-[480px] cs:h-[250px] cs:w-[360px] rounded-2xl bg-center bg-cover bg-no-repeat" style={{backgroundImage: "url('/562949.jpg')"}}>
                         <div className="flex justify-between mx-8">
                             <h1 className="mt-4 text-2xl font-bold text-white">FASTPAY</h1>
                             <h1 className="mt-4 text-2xl font-bold text-white">*** 584</h1>
@@ -56,7 +56,7 @@ export default function Welcome() {
                             </div>
                         </div>
                         <h1 className="mt-9 text-center text-2xl font-bold">Historique de Transaction</h1>
-                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[380px] xs:w-[450px] bg-slate-300 rounded-lg">
+                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[360px] xs:w-[450px] bg-slate-300 rounded-lg">
                             <div className="flex justify-between mx-8">
                                 <div className="flex gap-2">
                                     <Avatar className="mt-2 hover:cursor-pointer">
@@ -75,7 +75,7 @@ export default function Welcome() {
                         </div>
                         </div>
 
-                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[380px] xs:w-[450px] bg-slate-300 rounded-lg">
+                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[360px] xs:w-[450px] bg-slate-300 rounded-lg">
                             <div className="flex justify-between mx-8">
                                 <div className="flex gap-2">
                                     <Avatar className="mt-2 hover:cursor-pointer">
@@ -94,7 +94,7 @@ export default function Welcome() {
                         </div>
                         </div>
 
-                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[380px] xs:w-[450px] bg-slate-300 rounded-lg">
+                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[360px] xs:w-[450px] bg-slate-300 rounded-lg">
                             <div className="flex justify-between mx-8">
                                 <div className="flex gap-2">
                                     <Avatar className="mt-2 hover:cursor-pointer">
