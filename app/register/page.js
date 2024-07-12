@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Register() {
   return (
-    <main className="flex  h-screen w-screen items-center justify-center">
+    <main className="flex h-screen w-screen items-center justify-center">
         <div className="h-[950px] max-w-[700px]">
             <div>
                 <h1 className="mt-20 text-center font-bold text-4xl">Créez votre compte</h1>

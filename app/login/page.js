@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 export default function Login() {
   return (
-    <main className="flex  h-screen w-screen items-center justify-center">
+    <main className="flex h-screen w-screen items-center justify-center">
         <div className="h-[950px] max-w-[700px]">
             <div>
-                <h1 className="mt-20 text-center font-bold text-4xl">Connectez votre compte</h1>
+                <h1 className="mt-20 text-center font-bold text-4xl">Créez votre compte</h1>
             </div>
             <div className="mt-8">
                 <h1 className="font-semibold text-xl">Numero de Telephone</h1>
@@ -17,7 +17,6 @@ export default function Login() {
                 <h1 className="font-semibold text-xl">Mot de Passe</h1>
                 <input type="password" className="rounded-md lg:w-[580px] h-[40px] xs:w-[400px] md:w-[500px] cs:w-[340px] px-5 font-semibold mt-2 bg-slate-300" placeholder="Entrez un mot de passe"/>
             </div>
-            
             <div className="mt-12 flex gap-5 justify-end">
                 <Link href="/register">
                     <button className="bg-slate-500 h-[40px] w-[90px] rounded-md">Sincrire</button>
