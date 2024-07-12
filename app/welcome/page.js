@@ -19,7 +19,7 @@ export default function Welcome() {
             </div>
             <div className="">
                 <div className="col-span-2 mt-5 items-center justify-center flex">
-                    <div className="h-[300px] w-[600px] xs:w-[500px] cs:w-[350px] cs:h-[250px] rounded-2xl bg-center bg-cover bg-no-repeat" style={{backgroundImage: "url('/562949.jpg')"}}>
+                    <div className="h-[300px] w-[600px] xs:w-[480px] cs:h-[250px] cs:w-[380px] rounded-2xl bg-center bg-cover bg-no-repeat" style={{backgroundImage: "url('/562949.jpg')"}}>
                         <div className="flex justify-between mx-8">
                             <h1 className="mt-4 text-2xl font-bold text-white">FASTPAY</h1>
                             <h1 className="mt-4 text-2xl font-bold text-white">*** 584</h1>
@@ -55,61 +55,61 @@ export default function Welcome() {
                                 <h1 className="mt-2 text-xl font-semibold">Coffre</h1>
                             </div>
                         </div>
-                        <h1 className="mt-9 ml-16 text-2xl font-bold">Historique de Transaction</h1>
-                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[300px] bg-slate-300 rounded-lg">
+                        <h1 className="mt-9 text-center text-2xl font-bold">Historique de Transaction</h1>
+                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[380px] xs:w-[450px] bg-slate-300 rounded-lg">
                             <div className="flex justify-between mx-8">
                                 <div className="flex gap-2">
                                     <Avatar className="mt-2 hover:cursor-pointer">
                                         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
                                         <AvatarFallback>CN</AvatarFallback>
                                     </Avatar>
-                                    <h1 className="mt-4 text-2xl font-bold text-white">John Doe</h1>
+                                    <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">John Doe</h1>
                                 </div>
-                                <h1 className="mt-4 text-2xl font-bold text-white">5000 F</h1>
+                                <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">5000 F</h1>
                             </div>
                         <div className="flex justify-between mx-8">
                             <div>
-                                <h1 className="mt-4 text-xl  text-white">Jan 12, 2023 at 2:30 </h1>
+                                <h1 className="mt-4 text-xl cs:text-sm text-white">Jan 12, 2023 at 2:30 </h1>
                             </div>
-                            <h1 className="mt-4 text-2xl font-bold text-white">TRANSFERE</h1>
+                            <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">TRANSFERE</h1>
                         </div>
                         </div>
 
-                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[300px] bg-slate-300 rounded-lg">
+                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[380px] xs:w-[450px] bg-slate-300 rounded-lg">
                             <div className="flex justify-between mx-8">
                                 <div className="flex gap-2">
                                     <Avatar className="mt-2 hover:cursor-pointer">
                                         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
                                         <AvatarFallback>CN</AvatarFallback>
                                     </Avatar>
-                                    <h1 className="mt-4 text-2xl font-bold text-white">John Doe</h1>
+                                    <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">John Doe</h1>
                                 </div>
-                                <h1 className="mt-4 text-2xl font-bold text-white">5000 F</h1>
+                                <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">5000 F</h1>
                             </div>
                         <div className="flex justify-between mx-8">
                             <div>
-                                <h1 className="mt-4 text-xl  text-white">Jan 12, 2023 at 2:30 </h1>
+                                <h1 className="mt-4 text-xl cs:text-sm text-white">Jan 12, 2023 at 2:30 </h1>
                             </div>
-                            <h1 className="mt-4 text-2xl font-bold text-white">TRANSFERE</h1>
+                            <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">TRANSFERE</h1>
                         </div>
                         </div>
 
-                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[300px] bg-slate-300 rounded-lg">
+                        <div className="mx-auto mt-5 h-[100px] w-[500px] cs:w-[380px] xs:w-[450px] bg-slate-300 rounded-lg">
                             <div className="flex justify-between mx-8">
                                 <div className="flex gap-2">
                                     <Avatar className="mt-2 hover:cursor-pointer">
                                         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
                                         <AvatarFallback>CN</AvatarFallback>
                                     </Avatar>
-                                    <h1 className="mt-4 text-2xl font-bold text-white">John Doe</h1>
+                                    <h1 className="mt-4 text-2xl cs:text-sm font-bold text-white">John Doe</h1>
                                 </div>
-                                <h1 className="mt-4 text-2xl font-bold text-white">5000 F</h1>
+                                <h1 className="mt-4 text-2xl cs:text-sm font-bold text-white">5000 F</h1>
                             </div>
                         <div className="flex justify-between mx-8">
                             <div>
-                                <h1 className="mt-4 text-xl  text-white">Jan 12, 2023 at 2:30 </h1>
+                                <h1 className="mt-4 text-xl cs:text-sm text-white">Jan 12, 2023 at 2:30 </h1>
                             </div>
-                            <h1 className="mt-4 text-2xl font-bold text-white">TRANSFERE</h1>
+                            <h1 className="mt-4 text-2xl font-bold cs:text-sm text-white">TRANSFERE</h1>
                         </div>
 
                         </div>
