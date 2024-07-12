@@ -6,7 +6,7 @@ export default function Login() {
     <main className="flex h-screen w-screen items-center justify-center">
         <div className="h-[950px] max-w-[700px]">
             <div className="">
-                <h1 className="mt-24 text-center font-bold text-4xl">Connectez votre compte</h1>
+                <h1 className="mt-20 text-center font-bold text-4xl">Connectez votre compte</h1>
             </div>
             <div className="mt-8">
                 <h1 className="font-semibold text-xl">Numero de Telephone</h1>

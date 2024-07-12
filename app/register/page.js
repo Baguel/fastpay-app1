@@ -7,7 +7,7 @@ export default function Register() {
     <main className="flex  h-screen w-screen items-center justify-center">
         <div className="h-[950px] max-w-[700px]">
             <div>
-                <h1 className="mt-16 text-center font-bold text-4xl">Créez votre compte</h1>
+                <h1 className="mt-20 text-center font-bold text-4xl">Créez votre compte</h1>
             </div>
             <div className="mt-8">
                 <h1 className="font-semibold text-xl">Nom Complet</h1>
