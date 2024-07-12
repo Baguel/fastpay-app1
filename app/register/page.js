@@ -3,10 +3,10 @@ import { Input } from "@/components/ui/input"
 
 export default function Register() {
   return (
-    <main className="h-screen w-md flex items-center justify-center bg-red-500">
+    <main className="flex items-center justify-center">
         <div className="h-[950px] max-w-[700px]">
             <div>
-                <h1 className="mt-32 text-center font-bold text-4xl">Créez votre compte</h1>
+                <h1 className="mt-24 text-center font-bold text-4xl">Créez votre compte</h1>
             </div>
             <div className="mt-8">
                 <h1 className="font-semibold text-xl">Nom Complet</h1>
@@ -31,6 +31,10 @@ export default function Register() {
             <div className="mt-8">
                 <h1 className="font-semibold text-xl">Image carte FLASHPAY</h1>
                 <Input className="rounded-md lg:w-[580px] h-[40px] xs:w-[400px]  md:w-[500px] cs:w-[340px] px-5 font-semibold mt-2  bg-slate-300" id="picture" type="file" />
+            </div>
+            <div className="mt-12 flex gap-5 justify-end">
+                <button className="bg-slate-400 h-[40px] w-[150px] rounded-md">Se Connecter</button>
+                <button className="bg-green-500 h-[40px] w-[90px] rounded-md">Sincrire</button>
             </div>
         </div>
     </main>
