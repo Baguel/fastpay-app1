@@ -21,7 +21,7 @@ export default function Login() {
                 <Link href="/register">
                     <button className="bg-slate-500 h-[40px] w-[90px] rounded-md">Sincrire</button>
                 </Link>
-                <Link href="/login">
+                <Link href="">
                     <button className="bg-green-400 h-[40px] w-[150px] rounded-md">Se Connecter</button>
                 </Link>
             </div>
