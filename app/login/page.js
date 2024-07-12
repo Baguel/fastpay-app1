@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input"
 
 export default function Login() {
   return (
-    <main className="flex items-center justify-center">
+    <main className="flex h-screen w-screen items-center justify-center">
         <div className="h-[950px] max-w-[700px]">
             <div className="">
                 <h1 className="mt-24 text-center font-bold text-4xl">Connectez votre compte</h1>

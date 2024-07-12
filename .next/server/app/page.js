@@ -89,7 +89,7 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
-/***/ "path?8ff8":
+/***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
   \***********************/
