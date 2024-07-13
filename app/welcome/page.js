@@ -107,7 +107,7 @@ export default function Welcome() {
                         </div>
                         </div>
                         
-                        <div className="flex items-center justify-center mt-5">
+                        <div className="flex items-center justify-center mt-5 mb-3">
                             <button className="bg-green-400 h-8 w-64 rounded-xl">Voir toutes les transactions</button>
                         </div>
 
