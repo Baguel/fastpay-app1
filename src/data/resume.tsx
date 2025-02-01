@@ -132,6 +132,13 @@ export const DATA = {
         "Python",
         "Gemini API",
       ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Baguel/Python_Chatbot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "",
       video:
         "",
