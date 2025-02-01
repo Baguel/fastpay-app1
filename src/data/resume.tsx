@@ -13,10 +13,12 @@ export const DATA = {
     "My name's Florentin Ganfon, backend developer. I love programming on backend processing and help people to improve their process.",
   avatarUrl: "/Dragonball-Goku.png",
   skills: [
-    "Next.js",
+    "PHP",
+    "Laravel",
+    "Mongo, SQL",
     "Node.js",
     "Python",
-    "Golang",
+    "c",
     "Docker",
   ],
   navbar: [
