@@ -65,8 +65,8 @@ export const DATA = {
       location: "Presentile",
       title: "Python and Odoo Developer",
       logoUrl: "/groupe-cerco-abidjan-cote-divoire.png",
-      start: "August 2021",
-      end: "December 2022",
+      start: "August 2023",
+      end: "December 2023",
       description:
         "Developed a web application, OpenGameStudio, designed to help users post both African and international games. This platform allows users to easily download and access games directly from their mobile devices.",
     },
