@@ -68,7 +68,7 @@ export const DATA = {
       start: "August 2021",
       end: "December 2022",
       description:
-        "Implement a web App call OpenGameStudio that will help people to post african and international games, application on the plateforme that people can download and use on their phone.",
+        "Developed a web application, OpenGameStudio, designed to help users post both African and international games. This platform allows users to easily download and access games directly from their mobile devices.",
     },
   ],
   education: [
