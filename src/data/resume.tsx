@@ -119,6 +119,18 @@ export const DATA = {
       video:
         "",
     },
+    {
+      title: "RAG Pyhton",
+      href: "",
+      dates: "Sep 2024",
+      active: true,
+      description:
+        "Design of an advanced question-answering system capable of extracting, analyzing, and generating contextual responses from PDF documents using information retrieval and text generation techniques.",
+      technologies: [
+        "Python",
+        "Gemini API",
+      ],
+    },
   ],
   hackathons: [
     {
