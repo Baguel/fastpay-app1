@@ -132,6 +132,9 @@ export const DATA = {
         "Python",
         "Gemini API",
       ],
+      image: "",
+      video:
+        "",
     },
   ],
   hackathons: [
